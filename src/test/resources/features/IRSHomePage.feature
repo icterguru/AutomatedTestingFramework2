@@ -18,7 +18,7 @@ Scenario: Refunds Link test
 When: I click on the Refunds link
 Then: I see the Refunds page
 
-Scenario Outline: Selecting different menu link and checking the corresponding page     
+Scenario Outline: Testing IRS Home page menu links     
 	When I clicked on the link "<menuLinkText>"     
 	Then I saw the page "<menuLinkPage>" 
  
